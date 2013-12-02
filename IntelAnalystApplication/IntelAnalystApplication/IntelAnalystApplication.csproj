@@ -42,10 +42,62 @@
     <Reference Include="System.Drawing" />
     <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml" />
+    <Reference Include="Telerik.WinControls, Version=2013.3.1016.40, Culture=neutral, PublicKeyToken=5bb2a467cbec794e, processorArchitecture=MSIL" />
+    <Reference Include="Telerik.WinControls.ChartView, Version=2013.3.1016.40, Culture=neutral, PublicKeyToken=5bb2a467cbec794e, processorArchitecture=MSIL" />
+    <Reference Include="Telerik.WinControls.GridView, Version=2013.3.1016.40, Culture=neutral, PublicKeyToken=5bb2a467cbec794e, processorArchitecture=MSIL" />
+    <Reference Include="Telerik.WinControls.RadChart, Version=2013.3.1016.40, Culture=neutral, PublicKeyToken=5bb2a467cbec794e, processorArchitecture=MSIL" />
+    <Reference Include="Telerik.WinControls.RadDock, Version=2013.3.1016.40, Culture=neutral, PublicKeyToken=5bb2a467cbec794e, processorArchitecture=MSIL" />
+    <Reference Include="Telerik.WinControls.UI, Version=2013.3.1016.40, Culture=neutral, PublicKeyToken=5bb2a467cbec794e, processorArchitecture=MSIL" />
+    <Reference Include="Telerik.WinControls.UI.Design, Version=2013.3.1016.40, Culture=neutral, PublicKeyToken=5bb2a467cbec794e, processorArchitecture=MSIL" />
+    <Reference Include="TelerikCommon, Version=2013.3.1016.40, Culture=neutral, PublicKeyToken=5bb2a467cbec794e, processorArchitecture=MSIL" />
+    <Reference Include="TelerikData, Version=2013.3.1016.20, Culture=neutral, PublicKeyToken=5bb2a467cbec794e, processorArchitecture=MSIL" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="FIDCIS_DataSet.Designer.cs" />
+    <Compile Include="Forms\DataUpload\frmReview.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\DataUpload\frmReview.Designer.cs" />
+    <Compile Include="Forms\DataUpload\XML_Uploader.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\DataUpload\XML_Uploader.Designer.cs" />
+    <Compile Include="Forms\FinTran\Fintran_Main.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FinTran\Fintran_Main.Designer.cs" />
+    <Compile Include="Forms\FinTran\Fintran_Review.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FinTran\Fintran_Review.Designer.cs" />
+    <Compile Include="Forms\FinTran\Frm_DataEntryReport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FinTran\Frm_DataEntryReport.Designer.cs" />
+    <Compile Include="frmLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmLogin.Designer.cs" />
+    <Compile Include="frmMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMain.Designer.cs" />
+    <Compile Include="PleaseWait.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PleaseWait.Designer.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Forms\DataUpload\frmReview.resx" />
+    <EmbeddedResource Include="Forms\DataUpload\XML_Uploader.resx" />
+    <EmbeddedResource Include="Forms\FinTran\Fintran_Main.resx" />
+    <EmbeddedResource Include="Forms\FinTran\Fintran_Review.resx" />
+    <EmbeddedResource Include="Forms\FinTran\Frm_DataEntryReport.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmLogin.resx" />
+    <EmbeddedResource Include="frmMain.resx" />
+    <EmbeddedResource Include="PleaseWait.resx" />
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -55,6 +107,7 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <None Include="FIDCIS_DataSet.xsd" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -68,6 +121,7 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
