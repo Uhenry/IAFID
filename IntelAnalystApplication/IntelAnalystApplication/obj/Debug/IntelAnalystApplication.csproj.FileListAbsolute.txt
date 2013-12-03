@@ -1,0 +1,10 @@
+C:\Users\admin6\Documents\GitHub\IAFID\IntelAnalystApplication\IntelAnalystApplication\obj\Debug\IntelAnalystApplication.Forms.DataUpload.frmReview.resources
+C:\Users\admin6\Documents\GitHub\IAFID\IntelAnalystApplication\IntelAnalystApplication\obj\Debug\IntelAnalystApplication.Forms.DataUpload.XML_Uploader.resources
+C:\Users\admin6\Documents\GitHub\IAFID\IntelAnalystApplication\IntelAnalystApplication\obj\Debug\IntelAnalystApplication.Forms.FinTran.Fintran_Main.resources
+C:\Users\admin6\Documents\GitHub\IAFID\IntelAnalystApplication\IntelAnalystApplication\obj\Debug\IntelAnalystApplication.Forms.FinTran.Fintran_Review.resources
+C:\Users\admin6\Documents\GitHub\IAFID\IntelAnalystApplication\IntelAnalystApplication\obj\Debug\IntelAnalystApplication.Forms.FinTran.Frm_DataEntryReport.resources
+C:\Users\admin6\Documents\GitHub\IAFID\IntelAnalystApplication\IntelAnalystApplication\obj\Debug\IntelAnalystApplication.frmLogin.resources
+C:\Users\admin6\Documents\GitHub\IAFID\IntelAnalystApplication\IntelAnalystApplication\obj\Debug\IntelAnalystApplication.frmMain.resources
+C:\Users\admin6\Documents\GitHub\IAFID\IntelAnalystApplication\IntelAnalystApplication\obj\Debug\IntelAnalystApplication.PleaseWait.resources
+C:\Users\admin6\Documents\GitHub\IAFID\IntelAnalystApplication\IntelAnalystApplication\obj\Debug\IntelAnalystApplication.Properties.Resources.resources
+C:\Users\admin6\Documents\GitHub\IAFID\IntelAnalystApplication\IntelAnalystApplication\obj\Debug\IntelAnalystApplication.csproj.GenerateResource.Cache
